@@ -2,23 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
     margin: 0;
     padding: 0;
-
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 20px;
-    background-color: #333;
-    color: #fff;
 }
 
 ul {
@@ -30,4 +20,211 @@ li a {
     text-decoration: none;
     color: #fff;
     padding: 10px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.logo {
+    font-weight: bold;
+    text-wrap: nowrap;
+}
+
+.header-container {
+    width: 100%;
+    background-color: #333;
+    padding: 0 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-container {
+    width: 100%;
+    background-color: #333;
+    padding: 0 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 24px;
+    background-color: #333;
+    color: #fff;
+}
+
+.sec-one-cont {
+    width: 100%;
+    background-color: #333;
+    padding: 0 200px;
+
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px 40px 20px;
+    background-color: #333;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.hook {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hook-text {
+    max-width: 400px;
+}
+
+.hook-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 0 10px 0;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    max-width: 100px;
+    border-color: #fff;
+}
+
+.hook-img {
+    padding-right: 25px;
+}
+
+.sec-two-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 25px 20px;
+    background-color: #fff;
+    color: #333;
+    align-items: center;
+}
+
+.quad-collection {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.image-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 200px;
+    padding: 15px 20px;
+}
+
+.sec-three-cont {
+    width: 100%;
+    background-color: #333;
+    padding: 100px 400px;
+}
+
+.quote {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 25px 20px 0 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.quote-text {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.quotee {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 20px 25px 20px;
+    background-color: #333;
+    color: #9e9e9e;
+    font-size: large;
+}
+
+.section-three {
+    padding: 25px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.sec-four-cont {
+    width: 100%;
+    background-color: #fff;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    flex-wrap: wrap;
+    border: 2px solid #333;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+.cta {
+    display: flex;
+    gap: 10px;
+    max-width: 500px;
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    max-width: 100px;
+    border-color: #333;
+    max-height: 50px;
 }
